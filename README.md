@@ -52,7 +52,7 @@ Image below of the pipelines on Buildkite I've used to deploy the infrastructure
 
 ## Other Options
 - Deploy the application to Elastic Beanstalk.
-- Use [Serverless framework](https://www.serverless.com/) and [serverless-rack](https://www.npmjs.com/package/serverless-rack) plugin for it, expose the endpoint on API Gateway.
+- Use [Serverless framework](https://www.serverless.com/) and expose the endpoint on API Gateway.
 - Use Serverless Application Model (SAM) to deploy the app, similar to what's outlined [here](https://github.com/aws-samples/serverless-sinatra-sample).
 - Deploy the app to an autoscaling EC2 with an ELB infront secured with SSL from ACM. 
 
